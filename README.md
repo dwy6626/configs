@@ -3,7 +3,7 @@
 ## Setup List
 
 - [ ] iTerm2, import config
-- [ ] Karabiner-elements, import config
+- [ ] Karabiner-elements, puts the `karabiner` folder to `~/.config/.
 - [ ] homebrew
 - [ ] VSCode, command line: https://code.visualstudio.com/docs/setup/mac
 - [ ] git
