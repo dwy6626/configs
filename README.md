@@ -24,7 +24,17 @@
 ### Git commit with gpg verification
 
 ```
-brew install gnupg
+brew install gnupg pinentry-mac
+echo "no-tty" > ~/.gnupg/gpg.conf
+echo "pinentry-program /usr/local/bin/pinentry-mac" > ~/.gnupg/gpg-agent.conf
+
+killall gpg-agent
+```
+
+test:
+
+```
+echo "test" | gpg --clearsign
 ```
 
 ### SSH key-gen
