@@ -2,11 +2,12 @@
 
 ## Setup List
 
-- [ ] iTerm2, import config
-- [ ] Karabiner-elements, puts the `karabiner` folder to `~/.config/.
+- [ ] iTerm2, import config in UI
+- [ ] Karabiner-elements, puts the `karabiner` folder to `~/.config/.`
 - [ ] homebrew
 - [ ] VSCode, command line: https://code.visualstudio.com/docs/setup/mac
 - [ ] git
+- [ ] [add ssh key to github](#ssh-key-gen)
 - [ ] zsh + zim + powerlevel10k: https://dwye.dev/post/zsh-zim-powerlevel10k/
 
 
@@ -14,6 +15,22 @@
 
 - `~/.ssh/config`
 - git: `user.signingkey`
+
+### SSH key-gen
+
+```
+ssh-keygen -C "david@dwye.dev"
+```
+
+and press return, return ...
+
+- add to github: https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+
+```
+cat ~/.ssh/id_rsa.pub
+```
+
+and paste to the github settings
 
 ### zsh Theme
 
