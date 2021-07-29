@@ -6,15 +6,26 @@
 - [ ] Karabiner-elements, puts the `karabiner` folder to `~/.config/.`
 - [ ] homebrew
 - [ ] VSCode, command line: https://code.visualstudio.com/docs/setup/mac
+- [ ] gpg
 - [ ] gitconfig to `~/.`
 - [ ] [add ssh key to github](#ssh-key-gen)
 - [ ] zsh + zim + powerlevel10k, put to  `~/.`: https://dwye.dev/post/zsh-zim-powerlevel10k/
-
 
 ### Secrets (in 1Password)
 
 - `~/.ssh/config`
 - git: `user.signingkey`
+
+### Tools
+
+- thefuck
+- tldr
+
+### Git commit with gpg verification
+
+```
+brew install gnupg
+```
 
 ### SSH key-gen
 
