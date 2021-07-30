@@ -9,7 +9,7 @@
 - [ ] gpg
 - [ ] gitconfig to `~/.`
 - [ ] [add ssh key to github](#ssh-key-gen)
-- [ ] zsh + zim + powerlevel10k, put to  `~/.`: https://dwye.dev/post/zsh-zim-powerlevel10k/
+- [ ] zsh + zim + powerlevel10k
 
 ### Secrets (in 1Password)
 
@@ -25,6 +25,19 @@ Brew:
 - autojump
 - thefuck
 - tldr
+
+### zsh
+
+https://dwye.dev/post/zsh-zim-powerlevel10k/
+
+1. install zim:
+
+```
+curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
+```
+
+2. replace `.zshrc`, `.zimrc` to  `~/.`
+3. `zimfw install`
 
 ### Git commit with gpg verification
 
