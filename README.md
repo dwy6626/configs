@@ -20,6 +20,9 @@
 
 ### Tools
 
+Brew:
+
+- autojump
 - thefuck
 - tldr
 
