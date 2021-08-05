@@ -7,7 +7,7 @@
 - [ ] homebrew
 - [ ] VSCode, command line: https://code.visualstudio.com/docs/setup/mac
 - [ ] gpg
-- [ ] gitconfig to `~/.`
+- [ ] gitconfig to `~/.` (or use config script to config each repo locally https://gist.github.com/dwy6626/ce6bd08aad6ce17d0d277f21ba2c6a3f)
 - [ ] [add ssh key to github](#ssh-key-gen)
 - [ ] zsh + zim + powerlevel10k
 
@@ -15,7 +15,6 @@
 
 - patched Monaco
 - `~/.ssh/config`
-- git: `user.signingkey`
 - gpg private key
 
 ### Tools
