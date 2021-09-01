@@ -10,14 +10,15 @@
 	last = log -1 HEAD
 	difflast = diff --cached HEAD^
 	cd = checkout
-	ls = branch
-	logline = log --pretty=oneline
 	tagls = tag -n99
-	logls = log --oneline
+	ll = log --oneline
 	cmt = commit
 	br = branch
 	mg = merge
 	rb = rebase
+	rs = reset
+	sw = switch
+	rst = restore
 [credential]
 	helper = osxkeychain
 [core]
