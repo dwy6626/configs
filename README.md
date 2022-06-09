@@ -40,7 +40,7 @@ curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | 
 
 ### Git commit with gpg verification
 
-get gpg private key in 1password
+get gpg private key and passphrase in 1password
 
 ```
 brew install gnupg pinentry-mac
