@@ -46,7 +46,7 @@ get gpg private key in 1password
 brew install gnupg pinentry-mac
 gpg --import ~/path/to/gpg_private_key
 echo "no-tty" > ~/.gnupg/gpg.conf
-echo "pinentry-program /usr/local/bin/pinentry-mac" > ~/.gnupg/gpg-agent.conf
+echo "pinentry-program $(which pinentry-mac)" > ~/.gnupg/gpg-agent.conf
 
 killall gpg-agent
 ```
