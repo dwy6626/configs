@@ -4,7 +4,7 @@
 
 - [ ] iTerm2, import config in UI
 - [ ] Karabiner-elements, puts the `karabiner` folder to `~/.config/.`
-- [ ] homebrew
+- [ ] homebrew, and run `./brew_install.sh`
 - [ ] VSCode, command line: https://code.visualstudio.com/docs/setup/mac
 - [ ] gpg
 - [ ] gitconfig to `~/.` (or use config script to config each repo locally https://gist.github.com/dwy6626/ce6bd08aad6ce17d0d277f21ba2c6a3f)
@@ -16,14 +16,6 @@
 - patched Monaco
 - `~/.ssh/config`
 - gpg private key
-
-### Tools
-
-Brew:
-
-- autojump
-- thefuck
-- tldr
 
 ### zsh
 
@@ -42,8 +34,9 @@ curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | 
 
 get gpg private key and passphrase in 1password
 
-```
-brew install gnupg pinentry-mac
+```bash
+# brew install gnupg pinentry-mac
+
 gpg --import ~/path/to/gpg_private_key
 echo "no-tty" > ~/.gnupg/gpg.conf
 echo "pinentry-program $(which pinentry-mac)" > ~/.gnupg/gpg-agent.conf
