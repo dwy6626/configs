@@ -13,7 +13,7 @@ args=(
     tldr
     httpie
     htop
-    lazygit
+    tig
     # dev
     pyenv
     pyenv-virtualenv
