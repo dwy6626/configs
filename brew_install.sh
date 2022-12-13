@@ -1,20 +1,23 @@
 #!/bin/bash
 
-brew install \
+args=(
     # essentials
-    watch \
-    wget \
+    watch
+    wget
     # gpg
-    gnupg \
-    pinentry-mac \
+    gnupg
+    pinentry-mac
     # tools
-    thefuck \
-    autojump \
-    tldr \
-    httpie \
-    htop \
-    tig \
+    thefuck
+    autojump
+    tldr
+    httpie
+    htop
+    lazygit
     # dev
-    pyenv \
-    pyenv-virtualenv \
+    pyenv
+    pyenv-virtualenv
     pipx
+)
+
+brew install ${args[@]}
