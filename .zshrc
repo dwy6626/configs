@@ -98,6 +98,8 @@ ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
 # Initialize modules
 # ------------------
 
+ZIM_HOME=~/.zim
+
 if [[ ${ZIM_HOME}/init.zsh -ot ${ZDOTDIR:-${HOME}}/.zimrc ]]; then
   # Update static initialization script if it's outdated, before sourcing it
   source ${ZIM_HOME}/zimfw.zsh init -q
@@ -146,5 +148,7 @@ eval $(thefuck --alias)
 export GPG_TTY=$(tty)
 
 # autojump
-[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+[ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
 
+# Set PATH, MANPATH, etc., for Homebrew.
+eval "$(/opt/homebrew/bin/brew shellenv)"
