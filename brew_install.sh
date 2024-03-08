@@ -9,7 +9,7 @@ args=(
     pinentry-mac
     # tools
     thefuck
-    autojump
+    zoxide
     tldr
     httpie
     htop

@@ -147,8 +147,9 @@ eval $(thefuck --alias)
 # git
 export GPG_TTY=$(tty)
 
-# autojump
-[ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
+# zoxide
+eval "$(zoxide init zsh)"
+alias cd="z"
 
 # Set PATH, MANPATH, etc., for Homebrew.
 eval "$(/opt/homebrew/bin/brew shellenv)"
