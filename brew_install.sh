@@ -18,6 +18,8 @@ args=(
     pyenv
     pyenv-virtualenv
     pipx
+    lazygit
+    # k9s
 )
 
 brew install ${args[@]}

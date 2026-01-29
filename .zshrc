@@ -135,8 +135,19 @@ bindkey -M vicmd 'j' history-substring-search-down
 # ============================================================================
 
 # alias
+alias cs='cursor'
 alias clc='clear'
 alias icloud='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs'
+alias yd='dyff between --ignore-order-changes --omit-header'
+
+alias k=kubectl
+alias kk=k9s
+alias lg=lazygit
+alias gg=lazygit
+alias g=git
+alias ks=kustomize
+alias p=pdm
+alias v=vim
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
