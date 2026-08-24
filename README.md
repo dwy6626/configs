@@ -2,33 +2,17 @@
 
 ## Setup List
 
-- [ ] iTerm2, import config in UI
-- [ ] Karabiner-elements, puts the `karabiner` folder to `~/.config/.`
+- [ ] Warp
 - [ ] homebrew, and run `./brew_install.sh`
-- [ ] VSCode, command line: https://code.visualstudio.com/docs/setup/mac
+- [ ] Zed
 - [ ] gpg
 - [ ] gitconfig to `~/.` (or use config script to config each repo locally https://gist.github.com/dwy6626/ce6bd08aad6ce17d0d277f21ba2c6a3f)
 - [ ] [add ssh key to github](#ssh-key-gen)
-- [ ] zsh + zim + powerlevel10k
 
 ### Secrets (in 1Password)
 
 - patched Monaco
-- `~/.ssh/config`
 - gpg private key
-
-### zsh
-
-https://dwye.dev/post/zsh-zim-powerlevel10k/
-
-1. install zim:
-
-```
-curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
-```
-
-2. replace `.zshrc`, `.zimrc` to  `~/.`
-3. `zimfw install`
 
 ### Git commit with gpg verification
 
@@ -65,10 +49,3 @@ cat ~/.ssh/id_rsa.pub
 ```
 
 and paste to the github settings
-
-### zsh Theme
-
-```
-echo "zmodule romkatv/powerlevel10k" >> ~/.zimrc
-zimfw install
-```

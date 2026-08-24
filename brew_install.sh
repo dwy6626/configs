@@ -7,19 +7,17 @@ args=(
     # gpg
     gnupg
     pinentry-mac
+    delta
     # tools
     thefuck
     zoxide
     tldr
     httpie
     htop
-    tig
     # dev
-    pyenv
-    pyenv-virtualenv
     pipx
     lazygit
-    # k9s
+    k9s
 )
 
 brew install ${args[@]}
