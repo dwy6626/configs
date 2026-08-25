@@ -14,9 +14,13 @@ args=(
     tldr
     httpie
     htop
+    riggrep
     # dev
+    gh
+    delta
     pipx
     lazygit
+    kubectl
     k9s
 )
 
