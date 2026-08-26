@@ -49,3 +49,13 @@ cat ~/.ssh/id_rsa.pub
 ```
 
 and paste to the github settings
+
+### Keyboard setup with VIA
+
+https://www.caniusevia.com/
+
+- prvs, play, next
+- Insert -> Lpad
+- cap -> hyper
+  - 在 Special → Any 輸入： `HYPR(KC_NO)`
+- Rcmd, ROpt, MO(1), RCtl
