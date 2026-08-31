@@ -15,6 +15,7 @@ args=(
     httpie
     htop
     riggrep
+    fd
     # dev
     gh
     delta
